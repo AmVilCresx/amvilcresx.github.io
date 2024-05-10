@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "tq"; /* Project id 3239553 */
+    src: url('//at.alicdn.com/t/c/font_3239553_vbsk2yo9dl8.ttf?t=1715161263621') format('truetype');
+  }
+  
+  .tq {
+    font-family: "tq" !important;
+    font-size: 28px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .icon-github-fill:before {
+    content: "\e885";
+  }
+  .icon-liebiao:before {
+    font-size: 20px;
+    content: "\e60a";
+  }
+  
+  .icon-shouye:before {
+    font-size: 20px;
+    content: "\e818";
+  }
+
+  .icon-fenlei:before {
+    font-size: 20px;
+    content: "\e680";
+    color: brown;
+  }
+
+  .icon-email:before {
+    content: "\e663";
+  }
+  
+  .icon-juejin:before {
+    content: "\e601";
+  }
+  
+  .icon-github:before {
+    content: "\e85a";
+  }
+  
+  .icon-weixin:before {
+    content: "\e622";
+  }
+  
+  .icon-guanbiMAC:before {
+    content: "\e65b";
+  }
+  
+  .icon-2zuixiaohua-2:before {
+    content: "\e65a";
+  }
+  
+  .icon-guanbi:before {
+    content: "\e60b";
+  }
+  
+  .icon-setting:before {
+    content: "\e65e";
+  }
+  
+  .icon-wanshang:before {
+    content: "\e600";
+  }
+  
