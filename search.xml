@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Centos7 配置免密极简教程</title>
+      <link href="/2024/11/18/Centos7%E9%85%8D%E7%BD%AE%E5%85%8D%E5%AF%86/"/>
+      <url>/2024/11/18/Centos7%E9%85%8D%E7%BD%AE%E5%85%8D%E5%AF%86/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>🚀准备工作：</p><ul><li><p>安装OpenSSH（一般默认已经安装）:  </p><p><code>sudo yum install openssh-server openssh-clients</code></p></li></ul></blockquote><h3 id="1-生成SSH密钥对"><a href="#1-生成SSH密钥对" class="headerlink" title="1.生成SSH密钥对"></a>1.生成SSH密钥对</h3><p>如果你还没有生成 SSH 密钥对，可以在本地主机上生成一个。默认情况下，密钥会存储在 ~&#x2F;.ssh 目录下。</p><p>执行 <code>ssh-keygen -t rsa</code> 命令，一直回车即可。</p><h3 id="2-复制公钥到远程主机"><a href="#2-复制公钥到远程主机" class="headerlink" title="2.复制公钥到远程主机"></a>2.<strong>复制公钥到远程主机</strong></h3><p><code>ssh-copy-id user@remote_host </code>  </p><blockquote><p>例如：<code>ssh-copy-id root@192.168.0.170</code> </p><mark class="hl-label orange">注意</mark> ：该步骤会让你输入远程主机的密码，即 <u>192.168.0.170</u> 的密码。</blockquote><h3 id="3-配置远程SSH服务器"><a href="#3-配置远程SSH服务器" class="headerlink" title="3. 配置远程SSH服务器"></a>3. <strong>配置远程SSH服务器</strong></h3><ul><li><p>确保远程主机上的 SSH 服务器允许基于密钥的身份验证。编辑远程主机（<u>上述例子中的192.168.0.170</u> ）的 <code>/etc/ssh/sshd_config</code> 文件，确保以下配置项正确设置：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">PubkeyAuthentication yes </span><br><span class="line">AuthorizedKeysFile .ssh/authorized_keys </span><br><span class="line">PasswordAuthentication no </span><br><span class="line">ChallengeResponseAuthentication no </span><br><span class="line">UsePAM no</span><br></pre></td></tr></table></figure></li><li><p>保存文件后，重启 SSH 服务以应用更改 </p><p><code>sudo systemctl restart sshd</code> </p><mark class="hl-label red">注意：</mark> ：这里重启的是远程服务器，即上例中的 <u>192.168.0.170</u></li></ul><hr><h3 id="🌐测试一下"><a href="#🌐测试一下" class="headerlink" title="🌐测试一下"></a>🌐测试一下</h3><ul><li><p>在当前服务器使用ssh命令连接远程主机</p><blockquote><p>命令格式： ssh user@remote_host</p><p>如：<code>ssh root@192.168.0.170</code></p></blockquote></li></ul><p>​<span style="color:green">此时，应该直接登录到 192.168.0.170，无需再次输入密码 </span>!</p><hr><p>🌹</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Centos7 配置免密 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>EasyExcel模板填充时动态获取下拉框数据</title>
       <link href="/2024/05/21/EasyExcel%E6%A8%A1%E6%9D%BF%E5%A1%AB%E5%85%85%E6%97%B6%E5%8A%A8%E6%80%81%E8%8E%B7%E5%8F%96%E4%B8%8B%E6%8B%89%E6%A1%86%E6%95%B0%E6%8D%AE/"/>
       <url>/2024/05/21/EasyExcel%E6%A8%A1%E6%9D%BF%E5%A1%AB%E5%85%85%E6%97%B6%E5%8A%A8%E6%80%81%E8%8E%B7%E5%8F%96%E4%B8%8B%E6%8B%89%E6%A1%86%E6%95%B0%E6%8D%AE/</url>
