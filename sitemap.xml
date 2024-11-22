@@ -2,6 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">  
     
   <url>  
+    <loc>https://amvilcresx.github.io/categories/index.html</loc>  
+      
+    <lastmod>2024-11-21T06:48:34.965Z</lastmod>  
+      
+    <date>1715073560000</date>  
+    <title>分类 | Acrx的博客</title>  
+      
+    <desc></desc>  
+  </url>  
+    
+  <url>  
+    <loc>https://amvilcresx.github.io/tags/index.html</loc>  
+      
+    <lastmod>2024-11-21T06:48:17.137Z</lastmod>  
+      
+    <date>1715073435000</date>  
+    <title>标签 | Acrx的博客</title>  
+      
+    <desc></desc>  
+  </url>  
+    
+  <url>  
     <loc>https://amvilcresx.github.io/2024/11/18/Centos7%E9%85%8D%E7%BD%AE%E5%85%8D%E5%AF%86/</loc>  
       
     <lastmod>2024-11-18T10:35:20.691Z</lastmod>  
@@ -24,34 +46,12 @@
   </url>  
     
   <url>  
-    <loc>https://amvilcresx.github.io/tags/index.html</loc>  
-      
-    <lastmod>2024-05-09T10:44:59.955Z</lastmod>  
-      
-    <date>1715073435000</date>  
-    <title>标签 | Acrx的博客</title>  
-      
-    <desc></desc>  
-  </url>  
-    
-  <url>  
     <loc>https://amvilcresx.github.io/link/index.html</loc>  
       
     <lastmod>2024-05-09T10:44:59.954Z</lastmod>  
       
     <date>1715073630000</date>  
     <title>友链 | Acrx的博客</title>  
-      
-    <desc></desc>  
-  </url>  
-    
-  <url>  
-    <loc>https://amvilcresx.github.io/categories/index.html</loc>  
-      
-    <lastmod>2024-05-09T10:44:59.919Z</lastmod>  
-      
-    <date>1715073560000</date>  
-    <title>分类 | Acrx的博客</title>  
       
     <desc></desc>  
   </url>  
