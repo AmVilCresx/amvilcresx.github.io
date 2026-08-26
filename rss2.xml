@@ -15,8 +15,30 @@
     <atom:link href="https://amvilcresx.github.io/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description></description>
-    <pubDate>Thu, 05 Feb 2026 02:07:40 GMT</pubDate>
+    <pubDate>Wed, 26 Aug 2026 09:48:12 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>激活脚本，不定时更新</title>
+      <link>https://amvilcresx.github.io/articles/%E6%BF%80%E6%B4%BB%E8%84%9A%E6%9C%AC%EF%BC%8C%E4%B8%8D%E5%AE%9A%E6%97%B6%E6%9B%B4%E6%96%B0/</link>
+      <guid>https://amvilcresx.github.io/articles/%E6%BF%80%E6%B4%BB%E8%84%9A%E6%9C%AC%EF%BC%8C%E4%B8%8D%E5%AE%9A%E6%97%B6%E6%9B%B4%E6%96%B0/</guid>
+      <pubDate>Fri, 22 Nov 2024 02:33:21 GMT</pubDate>
+      
+        
+        
+      <description>&lt;h2 id=&quot;🪶Jetbrains-系列&quot;&gt;&lt;a href=&quot;#🪶Jetbrains-系列&quot; class=&quot;headerlink&quot; title=&quot; 🪶Jetbrains 系列&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: red&quot;&gt; 🪶Jetbrains 系列&lt;/s</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<h2 id="🪶Jetbrains-系列"><a href="#🪶Jetbrains-系列" class="headerlink" title=" 🪶Jetbrains 系列"></a><span style="color: red"> 🪶Jetbrains 系列</span></h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">说明：测试该脚本是基于<span class="number">2026</span>版的IDEA与 PyCharm，执行后，会重新开始<span class="number">30</span>天的试用期，不是静默的，需要手动跟随指引点几下即可，快到期后，需要再执行该脚本</span><br></pre></td></tr></table></figure><p>Mac或者Linux：<a href="/attachments/scripts/reset_evalreset_jetbrains_eval_mac_linux.sh">reset_evalreset_jetbrains_eval_mac_linux.sh</a></p><p>Windows: <a href="/attachments/scripts/reset_jetbrains_eval_windows.vbs">reset_jetbrains_eval_windows.vbs</a></p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>https://amvilcresx.github.io/articles/%E6%BF%80%E6%B4%BB%E8%84%9A%E6%9C%AC%EF%BC%8C%E4%B8%8D%E5%AE%9A%E6%97%B6%E6%9B%B4%E6%96%B0/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>Java代码片段随机</title>

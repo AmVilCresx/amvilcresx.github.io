@@ -6,7 +6,7 @@
   <link href="https://amvilcresx.github.io/atom.xml" rel="self"/>
   
   <link href="https://amvilcresx.github.io/"/>
-  <updated>2026-02-05T02:07:40.221Z</updated>
+  <updated>2026-08-26T09:48:12.732Z</updated>
   <id>https://amvilcresx.github.io/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>激活脚本，不定时更新</title>
+    <link href="https://amvilcresx.github.io/articles/%E6%BF%80%E6%B4%BB%E8%84%9A%E6%9C%AC%EF%BC%8C%E4%B8%8D%E5%AE%9A%E6%97%B6%E6%9B%B4%E6%96%B0/"/>
+    <id>https://amvilcresx.github.io/articles/%E6%BF%80%E6%B4%BB%E8%84%9A%E6%9C%AC%EF%BC%8C%E4%B8%8D%E5%AE%9A%E6%97%B6%E6%9B%B4%E6%96%B0/</id>
+    <published>2024-11-22T02:33:21.000Z</published>
+    <updated>2026-08-26T09:48:12.732Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="🪶Jetbrains-系列"><a href="#🪶Jetbrains-系列" class="headerlink" title=" 🪶Jetbrains 系列"></a><span style="color: red"> 🪶Jetbrains 系列</span></h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">说明：测试该脚本是基于<span class="number">2026</span>版的IDEA与 PyCharm，执行后，会重新开始<span class="number">30</span>天的试用期，不是静默的，需要手动跟随指引点几下即可，快到期后，需要再执行该脚本</span><br></pre></td></tr></table></figure><p>Mac或者Linux：<a href="/attachments/scripts/reset_evalreset_jetbrains_eval_mac_linux.sh">reset_evalreset_jetbrains_eval_mac_linux.sh</a></p><p>Windows: <a href="/attachments/scripts/reset_jetbrains_eval_windows.vbs">reset_jetbrains_eval_windows.vbs</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;🪶Jetbrains-系列&quot;&gt;&lt;a href=&quot;#🪶Jetbrains-系列&quot; class=&quot;headerlink&quot; title=&quot; 🪶Jetbrains 系列&quot;&gt;&lt;/a&gt;&lt;span style=&quot;color: red&quot;&gt; 🪶Jetbrains 系列&lt;/s</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Java代码片段随机</title>
